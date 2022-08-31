@@ -34,6 +34,7 @@
 			navText: ['Prev','Next'],
 			controls: false,
 			// center:true,
+			autoplayTimeout:2000,
 			responsive: {
 				0: {
 					items: 1

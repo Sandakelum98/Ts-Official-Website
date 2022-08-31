@@ -86,6 +86,9 @@ h5, .h5 {
 .color-purple-2 {
 	color: #8B55FF;
 }
+.color-dark-purple {
+	color: #292f51;
+}
 .color-dark-grey {
 	color: #303648;
 }
@@ -115,6 +118,9 @@ h5, .h5 {
 }
 .bg-grey-like-blue {
 	background-color: #F6F9FC;
+}
+.bg-btn-gradient {
+	background-color: rgba(69, 99, 255, 1);
 }
 .p-t-5 {
 	padding-top: 5px;
@@ -251,10 +257,10 @@ h5, .h5 {
 .no-margin {
 	margin: 0;
 }
-.uppercase {
+.text-uppercase {
 	text-transform: uppercase;
 }
-.justify {
+.text-justify {
 	text-align:justify;
 }
 .clearfix {
@@ -282,8 +288,21 @@ ul {
 	top: 0;
 	width: 100%;
 	left: 0;
-	padding: 30px 0px;
 	z-index: 99;
+	background-color: transparent;
+}
+.header {
+	padding: 30px 0px;
+	background-color: #f6f9fc;
+}
+.header-logo-white {
+	display: none;
+}
+.home .header-logo-white {
+	display: inline-block;
+}
+.home .header-logo-blue {
+	display: none;
 }
 .header-content {
 	display: flex;
@@ -292,10 +311,13 @@ ul {
 .logo-container {
 	display: inline-block;
 }
+.header .header-right-container {
+	color: #fff;
+}
 .header-right-container {
 	display: inline-block;
 	float: right;
-	padding-top: 12px;
+	padding-top: 8px;
 	font-weight: 600;
 }
 .header-menu-cont {
@@ -314,6 +336,18 @@ ul {
 }
 .header-btn-cont a:first-child {
 	margin-right: 30px;
+}
+.home .header-btn-cont .btn-primary {
+	background: #ffffff40;
+}
+.header-btn-cont .btn-primary {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4563ff+0,8b55ff+58 */
+	background: #4563ff; /* Old browsers */
+	background: -moz-linear-gradient(left,  #4563ff 0%, #8b55ff 58%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #4563ff 0%,#8b55ff 58%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #4563ff 0%,#8b55ff 58%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4563ff', endColorstr='#8b55ff',GradientType=1 ); /* IE6-9 */
+
 }
 .btn-primary {
 	padding: 9px 26px 11px;
@@ -367,8 +401,11 @@ ul {
 }
 /*home-queue-management*/
 .home-queue-management {
-	padding-bottom: 485px;
+	padding-bottom: 510px;
 	position: relative;
+	background-image: url("img/home/bg-queue-management.png");
+	background-size: contain;
+	background-position-y: bottom;
 }
 .section-title-up {
 	font-weight: 600;
@@ -508,6 +545,112 @@ ul {
 }
 .social-icon a {
 	margin-left: 20px;
+}
+/*who we are page*/
+.who-we-are-intro {
+	position: relative;
+	padding-bottom: 220px;
+}
+.who-we-are-intro-title p {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	letter-spacing: 0.18em;
+	color: #4563FF;
+	text-transform: uppercase;
+}
+.who-we-are-intro-title h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 72px;
+	color: #303648;
+}
+.who-we-are-intro-content p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+}
+.who-we-are-intro-title {
+	padding: 0 325px;
+}
+.who-we-are-intro-desc {
+	padding: 0 190px;
+}
+.img-about-intro-left {
+	position: absolute;
+	top: 150px;
+}
+.img-about-intro-right{
+	position: absolute;
+	bottom: 0;
+	right: -280px;
+}
+.img-about-intro-down {
+	position: absolute;
+	bottom: 0;
+	z-index: 9;
+}
+.vision-mission-content {
+	padding: 0 62px;
+}
+.core-values {
+	padding: 300px 0 0;
+	position: relative;
+}
+.img-core-values-up {
+	position: absolute;
+	top: 0;
+}
+.img-core-values-down {
+	position: absolute;
+	bottom: 0;
+}
+.core-values-left {
+	padding-right: 100px;
+}
+.core-values-list li {
+	margin-bottom: 15px;
+	padding-left: 30px;
+	position: relative;
+}
+.core-values-list li:before {
+	content: url("img/about/core-values-icon.png");
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.our-team {
+	background-image: url("img/about/bg-our-team.png");
+	background-size: cover;
+	position: relative;
+}
+.our-team-para {
+	font-size: 18px;
+	line-height: 28px;
+}
+.img-our-team-up {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.our-team-content {
+	padding: 330px 250px 220px;
+}
+.want-to-build {
+	background-image: url("img/about/img-want-to-build-up.png");
+	background-size: contain;
+	position: relative;
+}
+.img-want-to-build-up {
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*left: 0;*/
+}
+.want-to-build-content {
+	padding: 0 300px 0 50px;
 }
 
 
