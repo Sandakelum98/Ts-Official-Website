@@ -537,7 +537,10 @@ ul {
 }
 /*home-signage-solution*/
 .home-signage-solution {
-	padding: 100px 0 405px;
+	padding: 100px 0 450px;
+	background-image: url("img/home/digital-signage.jpg");
+	background-size: contain;
+	background-position: bottom;
 }
 .home-signage-solution .container {
 	position: relative;
