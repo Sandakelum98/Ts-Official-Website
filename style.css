@@ -537,7 +537,7 @@ ul {
 }
 /*home-signage-solution*/
 .home-signage-solution {
-	padding: 100px 0 300px;
+	padding: 100px 0 405px;
 }
 .home-signage-solution .container {
 	position: relative;
@@ -545,7 +545,7 @@ ul {
 .signage-solution-image-cont {
 	position: absolute;
 	top: 0;
-	right: 80px;
+	right: 0px;
 }
 /*home-feedback-solution*/
 .home-feedback-solution {
