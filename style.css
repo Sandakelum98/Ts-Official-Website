@@ -224,6 +224,9 @@ h5, .h5 { /*used*/
 .p-t-200 {
 	padding-top: 200px;
 }
+.p-t-300 {
+	padding-top: 300px;
+}
 .p-b-200 {
 	padding-bottom: 200px;
 }
@@ -772,7 +775,7 @@ ul {
 .calling-pad-right {
 	padding-left: 40px;
 }
-.report-and-monitoring {
+.report-and-monitoring.with-up-bg-img {
 	position: relative;
 	padding-top: 300px;
 }
@@ -780,6 +783,29 @@ ul {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+/*vitual queue management*/
+.qr-text {
+	line-height: 19px;
+}
+.vq-desc-item.bg-dark-purple {
+	/*margin-top: 300px;*/
+	position: relative;
+	background-image: url("img/virtual-queue/bg-section-white.png");
+	background-position: top;
+	background-size: contain;
+}
+.vq-desc-item {
+	position: relative;
+	background-image: url("img/virtual-queue/bg-section-dark-purple.png");
+	background-position: top;
+	background-size: contain;
+}
+.vq-desc-item.bg-dark-purple .vq-desc-item-text {
+	padding: 230px 120px 0 0;
+}
+.vq-desc-item .vq-desc-item-text {
+	padding: 280px 0 0 120px;
 }
 
 
