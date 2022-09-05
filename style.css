@@ -889,6 +889,29 @@ ul {
 	text-align: center;
 	padding-top: 15px;
 }
+/*customer feedback*/
+.report-and-monitoring {
+	position: relative;
+}
+.end-section-dark-purple {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 1199px) {
