@@ -125,23 +125,35 @@ h5, .h5 { /*used*/
 .p-t-5 {
 	padding-top: 5px;
 }
+.p-r-5 {
+	padding-right: 5px;
+}
 .p-b-5 {
 	padding-bottom: 5px;
-}
-.p-b-10 {
-	padding-bottom: 10px;
 }
 .p-t-10 {
 	padding-top: 10px;
 }
+.p-r-10 {
+	padding-right: 10px;
+}
+.p-b-10 {
+	padding-bottom: 10px;
+}
 .p-t-15 {
 	padding-top: 15px;
+}
+.p-r-15 {
+	padding-right: 15px;
 }
 .p-b-15 {
 	padding-bottom: 15px;
 }
 .p-t-20 {
 	padding-top: 20px;
+}
+.p-r-20 {
+	padding-right: 20px;
 }
 .p-b-20 {
 	padding-bottom: 20px;
@@ -152,11 +164,17 @@ h5, .h5 { /*used*/
 .p-t-30 {
 	padding-top: 30px;
 }
+.p-r-30 {
+	padding-right: 30px;
+}
 .p-b-30 {
 	padding-bottom: 30px;
 }
 .p-t-40 {
 	padding-top: 40px;
+}
+.p-r-40 {
+	padding-right: 40px;
 }
 .p-b-40 {
 	padding-bottom: 40px;
@@ -164,11 +182,17 @@ h5, .h5 { /*used*/
 .p-t-50 {
 	padding-top: 50px;
 }
+.p-r-50 {
+	padding-right: 50px;
+}
 .p-b-50 {
 	padding-bottom: 50px;
 }
 .p-t-60 {
 	padding-top: 60px;
+}
+.p-r-60 {
+	padding-right: 60px;
 }
 .p-b-60 {
 	padding-bottom: 60px;
@@ -176,11 +200,17 @@ h5, .h5 { /*used*/
 .p-t-70 {
 	padding-top: 70px;
 }
+.p-r-70 {
+	padding-right: 70px;
+}
 .p-b-70 {
 	padding-bottom: 70px;
 }
 .p-t-80 {
 	padding-top: 80px;
+}
+.p-r-80 {
+	padding-right: 80px;
 }
 .p-b-80 {
 	padding-bottom: 80px;
@@ -188,11 +218,17 @@ h5, .h5 { /*used*/
 .p-t-90 {
 	padding-top: 90px;
 }
+.p-r-90 {
+	padding-right: 90px;
+}
 .p-b-90 {
 	padding-bottom: 90px;
 }
 .p-t-100 {
 	padding-top: 100px;
+}
+.p-r-100 {
+	padding-right: 100px;
 }
 .p-b-100 {
 	padding-bottom: 100px;
@@ -205,6 +241,9 @@ h5, .h5 { /*used*/
 }
 .p-t-120 {
 	padding-top: 120px;
+}
+.p-r-120 {
+	padding-right: 120px;
 }
 .p-b-120 {
 	padding-bottom: 120px;
@@ -807,9 +846,49 @@ ul {
 .vq-desc-item .vq-desc-item-text {
 	padding: 280px 0 0 120px;
 }
-
-
-
+/*digital signage solution*/
+.low-oblique-purple {
+	position: relative;
+	padding-top: 220px;
+	background-image: url("img/digital-signage/bg-up-low-oblique-white.png");
+	background-position: top;
+	background-size: contain;
+}
+.low-oblique-end {
+	position: relative;
+	padding-top: 250px;
+	background-image: url("img/digital-signage/bg-end-low-oblique-purple.png");
+	background-position: top;
+	background-size: contain;
+}
+.ts-media-player-features img {
+	margin-right: 20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #ffffff2e;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.bx-wrapper .bx-pager-item {
+	font-size: 0;
+	line-height: 0;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+	background: #fff;
+}
+.bx-pager.bx-default-pager {
+	text-align: center;
+	padding-top: 15px;
+}
 
 
 @media only screen and (max-width: 1199px) {

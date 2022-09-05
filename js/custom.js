@@ -25,6 +25,17 @@
 			prevText: ''
 		});
 
+		//slider with pager
+		$('.slider-with-pager').bxSlider({
+			auto: true,
+			autoControls: false,
+			stopAutoOnClick: true,
+			pager: true,
+			nextText: '',
+			prevText: ''
+		});
+
+		//home customers list carousel
         $('.customer-list-carousel').owlCarousel({
 			loop: true,
 			margin: 0,
