@@ -8,6 +8,7 @@ body {
 }
 * {
 	background-repeat: no-repeat;
+	scroll-behavior: smooth;
 }
 a {
 	-webkit-transition: ease-out all 0.3s;
@@ -304,6 +305,9 @@ h5, .h5 { /*used*/
 }
 .m-b-100 {
 	margin-bottom: 100px;
+}
+.m-b-120 {
+	margin-bottom: 120px;
 }
 .no-margin {
 	margin: 0;
@@ -898,12 +902,27 @@ ul {
 	top: 0;
 	left: 0;
 }
-
-
-
-
-
-
+/*software dev*/
+.software-dev-services .solution-title-container {
+	padding: 0 200px 100px;
+}
+.software-dev-details-cont {
+	padding: 0 150px;
+}
+.s-dev-details-item-left {
+	padding-right: 70px;
+}
+.s-dev-item-specification-list li {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+	display: inline-block;
+	margin-right: 40px;
+}
+.s-dev-item-specification-list li:last-child {
+	margin-right: 0px;
+}
 
 
 
