@@ -123,6 +123,13 @@ h5, .h5 { /*used*/
 .bg-btn-gradient {
 	background-color: rgba(69, 99, 255, 1);
 }
+.bg-btn-gradient-2 {
+	background: #4563ff;
+	background: -moz-linear-gradient(left, #4563ff 0%, #8b55ff 58%);
+	background: -webkit-linear-gradient(left, #4563ff 0%,#8b55ff 58%);
+	background: linear-gradient(to right, #4563ff 0%,#8b55ff 58%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4563ff', endColorstr='#8b55ff',GradientType=1 );
+}
 .p-t-5 {
 	padding-top: 5px;
 }
@@ -923,11 +930,34 @@ ul {
 .s-dev-item-specification-list li:last-child {
 	margin-right: 0px;
 }
-
-
-
-
-
+/*get demo*/
+.solution-intro.get-demo-intro {
+	padding-bottom: 40px;
+}
+.get-demo-left {
+	padding-right: 160px;
+}
+.form-item-label {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 30px;
+	color: #000000;
+}
+.form-item input, .form-item textarea {
+	width: 100%;
+	height: 35px;
+	border: 1px solid #D9DCE7;
+	border-radius: 5px;
+	color: #55556B;
+}
+.form-item input:focus-visible, .form-item textarea:focus-visible {
+	outline: none;
+	box-shadow: 0 2px 10px 0 rgb(0 0 0 / 12%);
+	border: 1px solid rgba(24,24,24,.4);
+}
+.form-item textarea {
+	height: 120px;
+}
 
 
 
