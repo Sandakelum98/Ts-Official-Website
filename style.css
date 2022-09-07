@@ -1019,8 +1019,52 @@ ul {
 	text-align: center;
 	color: #404A69;
 }
-
-
+/*contact page*/
+.contact-detail-item-label {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	color: #2D3042;
+}
+.contact-detail-item-text {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+	color: #404A69;
+}
+.contact-details-right .form-item textarea {
+	height: 180px;
+}
+.form-checkbox input {
+	margin-right: 10px;
+}
+.form-checkbox p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #404A69;
+}
+.partner-details {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	color: #777FA5;
+}
+.partner-details-title {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.become-a-partners {
+	padding-top: 300px;
+	background-image: url("img/contact/bg-partner.png");
+	background-position: top left;
+	/*background-size: contain;*/
+}
+.become-a-partners-content a {
+	color: #8B55FF;
+}
 
 
 
